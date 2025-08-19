@@ -1,0 +1,7 @@
+<launch>
+  <!-- Publisher node -->
+  <node pkg="py_pubsub" type="talker.py" name="talker" output="screen" />
+
+  <!-- Subscriber node -->
+  <node pkg="py_pubsub" type="listener.py" name="listener" output="screen" />
+</launch>
